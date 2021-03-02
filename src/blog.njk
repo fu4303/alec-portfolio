@@ -2,13 +2,13 @@
 {% from 'hero.njk' import hero  %}
 
 {% set title = 'Blog' %}
-{% set description = 'Here you will find my thoughts, opinions, findings, and neat tricks I have discovered over my years in web development.' %}
+{% set description = 'Here you will find my thoughts, opinions, and things that make me say huh.' %}
 
 {% block body %}
 
   {{ hero(
     eyebrow = 'Subject to change',
-    heading = "My thoughts on web development.",
+    heading = "Thoughts of a crazy man.",
     paragraph = description
   ) }}
 
@@ -29,7 +29,7 @@
             class="inline-flex items-center mt-6 text-indigo-500 font-bold"
           >
             <span class="leading-none">
-              Read More
+              More noise
             </span>
             <span class="w-4 ml-1">
               {% include 'icons/arrow.svg' %}
