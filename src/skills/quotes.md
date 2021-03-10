@@ -1,6 +1,6 @@
 ---
 name: Quotes
-icon: instruction
+icon: annotation
 description:
   Some of my favorite quotes.
 color: text-magenta-500
