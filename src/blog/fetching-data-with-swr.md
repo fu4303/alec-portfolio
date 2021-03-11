@@ -1,7 +1,7 @@
 ---
-title: 'Create a Dashboard with Next.js API Routes - Fetching Data with SWR'
-description: 'Learn how to fetch data with SWR, a React Hooks library which improves the developer experience of retrieving data.'
-Date: '2020-02-24'
+title: Create a Dashboard with Next.js API Routes - Fetching Data with SWR
+description: Learn how to fetch data with SWR, a React Hooks library which improves the developer experience of retrieving data.
+date: 2020-02-24
 ---
 
 > In this series, you will learn how to [create a dashboard](/dashboard) using Next.js API routes and integrate with third-party APIs.
