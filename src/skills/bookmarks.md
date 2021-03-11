@@ -1,6 +1,6 @@
 ---
 name: Bookmarks
-icon: bookmarks-alt
+icon: bookmark
 description:
  Some of my favorite bookmarks.
 color: text-pink-500
