@@ -1,7 +1,7 @@
 module.exports = {
   internal: [
-    { name: 'Sites', link: '/sites/' },
     { name: 'Blog', link: '/blog/' },
+    { name: 'Sites', link: '/sites/' },
     { name: 'Bookmarks', link: '/bookmarks/' },
     { name: 'Quotes', link: '/quotes/' },
     { name: 'Contact', link: '/contact/' },
