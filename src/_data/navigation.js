@@ -3,7 +3,6 @@ module.exports = {
     { name: 'Blog', link: '/blog/' },
     { name: 'Sites', link: '/sites/' },
     { name: 'Bookmarks', link: '/bookmarks/' },
-    { name: 'Quotes', link: '/quotes/' },
     { name: 'Contact', link: '/contact/' },
   ],
   external: [
