@@ -4,6 +4,7 @@
   eyebrow = 'Default Eyebrow',
   heading = 'Default Heading',
   paragraph = 'Default Paragraph',
+  author = 'Default Author',
   belowParagraph
 ) %}
 
@@ -18,6 +19,9 @@
         </h1>
         <p class="mt-4 max-w-screen-sm text-base sm:text-lg lg:text-xl text-indigo-100">
           {{ paragraph | safe }}
+        </p>
+        <p class="mt-4 max-w-screen-sm text-base sm:text-lg lg:text-xl text-indigo-100">
+          {{ author | safe }}
         </p>
         {% if belowParagraph %}
           {{ belowParagraph | safe }}
