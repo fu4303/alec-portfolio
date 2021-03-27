@@ -4,6 +4,6 @@ icon: bookmark
 description:
  Some of my favorite bookmarks.
 color: text-pink-500
-link: /blog/
+link: /bookmarks/
 linkText: View Bookmarks
 ---
