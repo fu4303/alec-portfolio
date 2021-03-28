@@ -3,6 +3,7 @@ title: Stop using css variables in media queries
 description:
   Using clamp(), min() or max() instead of CSS Variables in Media Queries still makes a great responsive UX with a lot less code
 date: 2021-01-07
+author: Julio Soto
 ---
 
 
