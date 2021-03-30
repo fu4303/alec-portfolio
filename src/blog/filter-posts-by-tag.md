@@ -1,7 +1,7 @@
 ---
 title: Filter Posts by Tag
 date: 2020-06-10
-desc: Blogs can quickly become disorganized. With a bit of javascript, you can filter your posts by tag.
+description: Blogs can quickly become disorganized. With a bit of javascript, you can filter your posts by tag.
 author: Binyamin Aron Green
 ---
 Blogs can quickly become disorganized. You might want to link to a page on your website which only lists posts about CSS. With a bit of javascript, you can use `/blog?tag=css` to filter your posts.
