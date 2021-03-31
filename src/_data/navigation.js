@@ -4,6 +4,7 @@ module.exports = {
     { name: 'Sites', link: '/sites/' },
     { name: 'Bookmarks', link: '/bookmarks/' },
     { name: 'Contact', link: '/contact/' },
+    { name: 'test', link: '/test/' }
   ],
   external: [
     { icon: 'github', link: 'https://github.com/fu4303' },
