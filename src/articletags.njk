@@ -1,8 +1,8 @@
 {% extends 'page.njk' %}
 {% from 'hero.njk' import hero  %}
 
-{% set title = 'Blog' %}
-{% set description = 'Here you will find articles I find most helpful from some of the best developer blogs.' %}
+{% set title = 'Article Tags' %}
+{% set description = 'Here you will find all the articles tagged with that tag' %}
 
 {% block body %}
 
@@ -13,7 +13,7 @@
   ) }}
 
   <section class="container section-spacing">
-    {% for post in collections.blog | reverse %}
+    {% for post in collections.articletags | reverse %}
       <article class="flex flex-wrap-reverse {{ 'border-t pt-12 mt-12' if not loop.first }}">
         <div class="w-full mt-8 md:mt-0 md:w-1/3">
           <p class="uppercase text-xs font-bold text-gray-600">Author:</p>
