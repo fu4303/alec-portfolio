@@ -21,7 +21,7 @@
       {% for item in navigation.internal %}
         {% set isCurrentPage = item.link === currentPage %}
         <a
-          class="font-semibold text-sm tracking-tight {{ 'text-pink-500' if isCurrentPage else 'text-pink-300' }}"
+          class="font-semibold text-sm tracking-tight {{ 'text-pink-700' if isCurrentPage else 'text-pink-300' }}"
           href="{{ item.link }}"
         >
           {{ item.name }}
