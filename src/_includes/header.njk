@@ -1,7 +1,7 @@
 {% set currentPage = page.url %}
 
 <header
-  class="gradient-purple text-pink-800"
+  class="gradient-purple text-pink-900"
   x-data="{ mobileNav: false }"
 >
   <div class="container py-5 flex items-center">
@@ -21,7 +21,7 @@
       {% for item in navigation.internal %}
         {% set isCurrentPage = item.link === currentPage %}
         <a
-          class="font-semibold text-sm tracking-tight {{ 'text-pink-700' if isCurrentPage else 'text-pink-300' }}"
+          class="font-semibold text-sm tracking-tight {{ 'text-pink-700' if isCurrentPage else 'text-pink-200' }}"
           href="{{ item.link }}"
         >
           {{ item.name }}
@@ -30,7 +30,7 @@
     </nav>
 
     {# Nav Icons #}
-    <nav class="ml-auto md:ml-20 flex space-x-4 text-pink-300">
+    <nav class="ml-auto md:ml-20 flex space-x-4 text-pink-200">
       {% for item in navigation.external  %}
         <a
           aria-label="{{ item.icon }} profile link"
