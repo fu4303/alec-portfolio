@@ -20,11 +20,11 @@
   },
   "browserslist": "> 2%",
   "dependencies": {
-    "alpinejs": "^2.5.0",
+    "alpinejs": "^2.8.2",
     "turbolinks": "^5.2.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "@tailwindcss/forms": "^0.2.1",
     "autoprefixer": "^10.1.0",
@@ -40,7 +40,7 @@
     "postcss-import": "^14.0.0",
     "postcss-loader": "^4.1.0",
     "postcss-nested": "^5.0.3",
-    "tailwindcss": "^2.0.2",
+    "tailwindcss": "^2.1.0",
     "tailwindcss-debug-screens": "^1.1.0",
     "webpack": "^5.11.0",
     "webpack-cli": "^4.2.0"
